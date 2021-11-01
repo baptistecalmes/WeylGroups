@@ -1087,7 +1087,7 @@ hasseGraphToPicture(HasseGraph) := {"top margin"=>100,"left margin"=>100,"horizo
 rootSystem(RootSystem,Parabolic) := (R,P) ->
 	(
 	L:=sort(toList P) - (toList ((#P):1));
-	M:= if #P>0 then matrix(subtable(L,L,R.CartanMatrixTr)) else (matrix{{1}})^{}_{};
+	M:= if #P>0 then submatrix(R.CartanMatrixTr,L,L) else (matrix{{1}})^{}_{};
 	new RootSystem from {
 	RootSystemRank => #P,
 	CartanMatrixTr => M,
