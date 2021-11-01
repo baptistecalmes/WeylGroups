@@ -4,10 +4,10 @@
 newPackage(
 	"WeylGroups",
 	Version => "0.5.2",
-	Date => "March 20, 2012",
+	Date => "November 1, 2021",
 	Authors => {
 		{Name => "Baptiste Calmès",
-		HomePage => "http://www.math.uni-bielefeld.de/~bcalmes/"},
+		HomePage => "http://bcalmes.perso.math.cnrs.fr/"},
                 {Name => "Viktor Petrov"}
 		},
 	Headline => "root systems and Weyl groups",
