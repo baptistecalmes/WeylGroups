@@ -2,7 +2,7 @@
 History of changes between versions
 ===================================
 
-# since version 0.5 (preparation for WeylGroups new version)
+#since version 0.5 (preparation for WeylGroups new version)
 
 Changes related to the typing of weights so that their class becomes the root system they live in.
 

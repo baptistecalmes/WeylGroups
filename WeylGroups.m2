@@ -3,8 +3,8 @@
 
 newPackage(
 	"WeylGroups",
-	Version => "0.5.2",
-	Date => "November 1, 2021",
+	Version => "0.5.3",
+	Date => "October 2, 2022",
 	Authors => {
 		{Name => "Baptiste Calmès",
 		HomePage => "http://bcalmes.perso.math.cnrs.fr/"},
